@@ -1,0 +1,51 @@
+$bg-1: #d5e1ef;
+$bg-2: #fff;
+$color-1: #1f314f;
+$color-2: #7d889e;
+$font: 'Outfit', sans-serif;
+$text-l: 22px;
+$text-s: 15px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  background: $bg-1;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 497px;
+  width: 320px;
+  padding: 16px 16px 40px;
+  background: $bg-2;
+  border-radius: 20px;
+
+  .qr_code {
+    display: inline-block;
+    height: 288px;
+    width: 288px;
+    margin: 0 auto 24px;
+    border-radius: 10px;
+  }
+
+  .title {
+    margin-bottom: 16px;
+    color: $color-1;
+    font-size: $text-l;
+    text-align: center;
+  }
+
+  .description {
+    color: $color-2;
+    font-size: $text-s;
+    text-align: center;
+  }
+}

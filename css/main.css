@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: #d5e1ef;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 497px;
+  width: 320px;
+  padding: 16px 16px 40px;
+  background: #fff;
+  border-radius: 20px;
+}
+.modal .qr_code {
+  display: inline-block;
+  height: 288px;
+  width: 288px;
+  margin: 0 auto 24px;
+  border-radius: 10px;
+}
+.modal .title {
+  margin-bottom: 16px;
+  color: #1f314f;
+  font-size: 22px;
+  text-align: center;
+}
+.modal .description {
+  color: #7d889e;
+  font-size: 15px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
