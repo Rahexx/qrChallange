@@ -26,7 +26,7 @@ body {
   display: inline-block;
   height: 288px;
   width: 288px;
-  margin: 0 auto 24px;
+  margin: 0 auto 20px;
   border-radius: 10px;
 }
 .modal .title {
@@ -39,4 +39,6 @@ body {
   color: #7d889e;
   font-size: 15px;
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
